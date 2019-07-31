@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Definición base para páginas -->
+	<definition name="base-definition"
+		template="/WEB-INF/views/tiles/templates/layout.jsp">
+		<put-attribute name="title" value="" />
+		 <put-attribute name="menu" 
+			value="/WEB-INF/views/tiles/templates/menu.jsp" />
+		<put-attribute name="bienvenida"
+			value="/WEB-INF/views/tiles/templates/bienvenida.jsp" /> 
+			<put-attribute name="buscador" 
+			value="/WEB-INF/views/tiles/templates/buscador.jsp" />
+			
+		<put-attribute name="body" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/tiles/templates/footer.jsp" />
+	</definition>
+
+	<definition name="base-definition-error"
+		template="/WEB-INF/views/tiles/templates/layoutError.jsp">
+		<put-attribute name="title" value="Error en el servidor" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/tiles/templates/footer.jsp" />
+	</definition>
+
+	<!-- Error Page -->
+	<definition name="errorPage" extends="base-definition-error">
+		<put-attribute name="header"
+			value="/WEB-INF/views/tiles/templates/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/errorPage.jsp" />
+	</definition>
+
+
+	<!-- Home Page -->
+
+
+	<!-- Welcome Page -->
+
+
+
+
+	<!-- Definición de usuarios -->
+	
+	<!-- Administrar articulo usuario -->
+	<definition name="6usuarioadministrarticulo" extends="base-definition">
+		<put-attribute name="title"
+			value="Administrar articulo usuario" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuarios/6usuarioadministrarticulo.jsp" />
+	</definition>
+	<!-- Usuario subir articulo -->
+	<definition name="7usuariosubirarticulo" extends="base-definition">
+		<put-attribute name="title"
+			value="Usuario subir articulo" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuarios/7usuariosubirarticulo.jsp" />
+	</definition>
+	<!-- Usuario quienes somos -->
+	<definition name="8usuarioquienessomos" extends="base-definition">
+		<put-attribute name="title"
+			value="Usuario quienes somos" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuarios/8usuarioquienessomos.jsp" />
+	</definition>
+	<!-- Usuario editar perfil -->
+	<definition name="9usuarioeditarperfil" extends="base-definition">
+		<put-attribute name="title"
+			value="Usuario editar perfil" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/usuarios/9usuarioeditarperfil.jsp" />
+	</definition> 
+	
+	<!--Revisores contenido-->
+	
+	<!-- Revisores revision -->
+	<definition name="10Revisroresrevision" extends="base-definition">
+		<put-attribute name="title"
+			value="Revisores revision" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/revisor/10Revisroresrevision.jsp" />
+	</definition> 
+	
+	<!-- Revisores editar perfil -->
+	<definition name="11revisoreditarperfil" extends="base-definition">
+		<put-attribute name="title"
+			value="Revisores editar perfil" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/revisor/11revisoreditarperfil.jsp" />
+	</definition>
+	
+	<!-- Revisor vista general -->
+	<definition name="16vistageneraldelarticulorevisor" extends="base-definition">
+		<put-attribute name="title"
+			value="Revisor vista general" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/revisor/16vistageneraldelarticulorevisor.jsp" />
+	</definition> 
+	
+	<!--Administrador-->
+	
+	<!-- Solicitudes de administrador -->
+	<definition name="12solicitudesadministrador" extends="base-definition">
+		<put-attribute name="title"
+			value="Solicitudes de administrador" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/12solicitudesadministrador.jsp" />
+	</definition>
+	
+	<!-- Historial de administrador -->
+	<definition name="13historialadministrador" extends="base-definition">
+		<put-attribute name="title"
+			value="Historial de administrador" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/13historialadministrador.jsp" />
+	</definition> 
+	
+	<!-- Publicar administrador -->
+	<definition name="14publicaradministrador" extends="base-definition">
+		<put-attribute name="title"
+			value="Publicar administrador" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/14publicaradministrador.jsp" />
+	</definition> 
+	
+	<!-- Editar perfil administrador -->
+	<definition name="15editarperfiladministrador" extends="base-definition">
+		<put-attribute name="title"
+			value="Editar perfil administrador" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/administrador/15editarperfiladministrador.jsp" />
+	</definition> 
+	
+	<!--Publico-->
+	
+	<!-- Articulo especifico -->
+	<definition name="0articuloespecifico" extends="base-definition">
+		<put-attribute name="title"
+			value="Articulo especifico" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/0articuloespecifico.jsp" />
+	</definition>
+	
+	<!-- Conocimentos especializados -->
+	<definition name="1conocimentosEspecializados1" extends="base-definition">
+		<put-attribute name="title"
+			value="Conocimentos especializados" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/1conocimentosEspecializados1.jsp" />
+	</definition>
+	
+	<!-- Conocimentos generales -->
+	<definition name="2conocimientosgeneralesTI" extends="base-definition">
+		<put-attribute name="title"
+			value="Conocimentos generales" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/2conocimientosgeneralesTI.jsp" />
+	</definition>
+	
+	<!-- TI a la vanguardia -->
+	<definition name="3tialavanguardia" extends="base-definition">
+		<put-attribute name="title"
+			value="TI a la vanguardias" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/3tialavanguardia.jsp" />
+	</definition>
+	
+	<!-- Noticias y eventos TI -->
+	<definition name="4noticiasyeventosti" extends="base-definition">
+		<put-attribute name="title"
+			value="Noticias y eventos TI" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/4noticiasyeventosti.jsp" />
+	</definition>
+	
+	<!-- Quienes somos publico -->
+	<definition name="5quienessomospublico" extends="base-definition">
+		<put-attribute name="title"
+			value="Quienes somos publico" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/5quienessomospublico.jsp" />
+	</definition>
+	
+	<!-- Olvido contraseña -->
+	<definition name="olvidocontraseña" extends="base-definition">
+		<put-attribute name="title"
+			value="Olvido contraseña" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/olvidocontraseña.jsp" />
+	</definition>
+	
+		<!-- Index -->
+	<definition name="index" extends="base-definition">
+		<put-attribute name="title"
+			value="Zona TIC" />
+			<put-attribute name="bienvenida"
+			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/index/index.jsp" />
+	</definition>
+
+</tiles-definitions>
