@@ -13,6 +13,8 @@
 			value="/WEB-INF/views/tiles/templates/menuadministrador.jsp" />
 		<put-attribute name="menuusuario" 
 			value="/WEB-INF/views/tiles/templates/menuusuario.jsp" />
+			<put-attribute name="menurevisor" 
+			value="/WEB-INF/views/tiles/templates/menurevisor.jsp" />
 		<put-attribute name="bienvenida"
 			value="/WEB-INF/views/tiles/templates/bienvenida.jsp" /> 
 			<put-attribute name="buscador" 
@@ -114,6 +116,7 @@
 			value="Revisores revision" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/10Revisroresrevision.jsp" />
+		
 	</definition> 
 	
 	<!-- Revisores editar perfil -->
@@ -122,6 +125,7 @@
 			value="Revisores editar perfil" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/11revisoreditarperfil.jsp" />
+		
 	</definition>
 	
 	<!-- Revisor vista general -->
@@ -130,6 +134,7 @@
 			value="Revisor vista general" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/16vistageneraldelarticulorevisor.jsp" />
+			
 	</definition> 
 	
 	<!--Administrador-->
@@ -196,6 +201,17 @@
 			value="Articulo especifico" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/0articuloespecifico.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
+			
 	</definition>
 	
 	<!-- Conocimentos especializados -->
@@ -204,6 +220,16 @@
 			value="Conocimentos especializados" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/1conocimentosEspecializados1.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 	<!-- Conocimentos generales -->
@@ -212,6 +238,16 @@
 			value="Conocimentos generales" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/2conocimientosgeneralesTI.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 	<!-- TI a la vanguardia -->
@@ -220,6 +256,16 @@
 			value="TI a la vanguardias" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/3tialavanguardia.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 	<!-- Noticias y eventos TI -->
@@ -228,6 +274,16 @@
 			value="Noticias y eventos TI" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/4noticiasyeventosti.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 	<!-- Quienes somos publico -->
@@ -236,6 +292,16 @@
 			value="Quienes somos publico" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/5quienessomospublico.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 	<!-- Olvido contraseña -->
@@ -244,6 +310,16 @@
 			value="Olvido contraseña" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/publico/olvidocontraseña.jsp" />
+			<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 	</definition>
 	
 		<!-- Index -->
