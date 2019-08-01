@@ -109,7 +109,7 @@
 .header{
     background-color: white;
     padding: 30px;
-    margin-top: -10%;
+    margin-top: 0%;
 }
 
 .header2{
@@ -125,13 +125,10 @@
    
     padding: 10px;
 }
-
-
-
 .header8{
     border-radius: 5px solid white;
     background-color: #e3f2fd;
-   margin-top: 10px;
+    margin-top: 0%;
     padding: 5px;
     border-radius: 10px;
 }

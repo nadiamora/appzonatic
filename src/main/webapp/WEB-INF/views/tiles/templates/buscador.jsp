@@ -1,25 +1,13 @@
-<div class="row margen">
-            <!--Footer-->
-            <div class="col-md-12 pie">
-                <footer>
-                    <h4>Buscador</h4>
-                   Buscador
-                </footer>
-
-                <div class="linkUTN">
-
-                    <a title="UTNG" href="https://www.utng.edu.mx/"><img class="linkUTNG" width="15%"
-                            src="../resources/img/linkUTNG.png" alt="UTNG" /></a>
-
-                </div>
-                <div class="linkfacebook">
-
-                    <a title="UTNG" href="https://es-la.facebook.com/UTNGDOLORESHIDALGO-222209577812067/"><img
-                            class="linkUTNG" width="8%" src="../resources/img/logofacebook.png" alt="UTNG" /></a>
-                    
-                </div>
-
-            </div>
-
-
-        </div>
+<div class="row">
+		<div class="col-md header4">
+			<div>
+				<nav class="navbar navbar-light1" style="background-color: #e3f2fd";>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search"
+							placeholder="Articulos" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+					</form>
+				</nav>
+			</div>
+		</div>
+</div>

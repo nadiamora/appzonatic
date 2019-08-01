@@ -28,21 +28,37 @@
 <body>
 
 	<div class="container">
-		<!-- Inicio de Sección de header -->
+		<!-- Inicio de Sección de menú index -->
 		<div class="row">
 			<div class="col-md-12">
-				<tiles:insertAttribute name="menu" />
+				<tiles:insertAttribute name="menuindex" />
 			</div>
 		</div>
-		<!-- Fin de Sección de header -->
+		<!-- Fin de Sección de menú index -->
+		
+		<!-- Inicio de Sección de menú administrador-->
+		<div class="row">
+			<div class="col-md-12">
+				<tiles:insertAttribute name="menuadministrador" />
+			</div>
+		</div>
+		<!-- Fin de Sección de menú administrador -->
+		
+		<!-- Inicio de Sección de menú usuario-->
+		<div class="row">
+			<div class="col-md-12">
+				<tiles:insertAttribute name="menuusuario" />
+			</div>
+		</div>
+		<!-- Fin de Sección de menú usuario -->
 
-		<!-- Inicio de Sección de Menú -->
+		<!-- Inicio de Sección de bienvenida -->
 		<div class="row">
 			<div class="col-md-12">
 				<tiles:insertAttribute name="bienvenida" />
 			</div>
 		</div>
-		<!-- Fin de Sección de Menú -->
+		<!-- Fin de Sección de bienvenida -->
 		
 				<!-- Inicio de Sección de Buscador -->
 		<div class="row">
