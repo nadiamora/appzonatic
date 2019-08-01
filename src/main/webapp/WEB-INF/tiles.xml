@@ -36,8 +36,8 @@
 
 	<!-- Error Page -->
 	<definition name="errorPage" extends="base-definition-error">
-		<put-attribute name="header"
-			value="/WEB-INF/views/tiles/templates/header.jsp" />
+		<put-attribute name="menuindex"
+			value="/WEB-INF/views/tiles/templates/menuindex.jsp" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/errorPage.jsp" />
 	</definition>
@@ -45,10 +45,7 @@
 
 	<!-- Home Page -->
 
-
 	<!-- Welcome Page -->
-
-
 
 
 	<!-- Definición de usuarios -->
@@ -57,12 +54,14 @@
 	<definition name="6usuarioadministrarticulo" extends="base-definition">
 		<put-attribute name="title"
 			value="Administrar articulo usuario" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
 			value="" />
-		<put-attribute name="menuadministrador"
+		<put-attribute name="menuadministrador" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
+			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/usuarios/6usuarioadministrarticulo.jsp" />
 	</definition>
@@ -70,13 +69,15 @@
 	<definition name="7usuariosubirarticulo" extends="base-definition">
 		<put-attribute name="title"
 			value="Usuario subir articulo" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
 			value="" />
-		<put-attribute name="menuadministrador"
+		<put-attribute name="menuadministrador" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
-		<put-attribute name="buscador" 
+			value="" /> 
+			<put-attribute name="buscador" 
 			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/usuarios/7usuariosubirarticulo.jsp" />
@@ -85,12 +86,14 @@
 	<definition name="8usuarioquienessomos" extends="base-definition">
 		<put-attribute name="title"
 			value="Usuario quienes somos" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
 			value="" />
-		<put-attribute name="menuadministrador"
+		<put-attribute name="menuadministrador" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
+			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/usuarios/8usuarioquienessomos.jsp" />
 	</definition>
@@ -98,11 +101,15 @@
 	<definition name="9usuarioeditarperfil" extends="base-definition">
 		<put-attribute name="title"
 			value="Usuario editar perfil" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
 			value="" />
-		<put-attribute name="menuadministrador"
+		<put-attribute name="menuadministrador" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
 			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/usuarios/9usuarioeditarperfil.jsp" />
@@ -114,6 +121,14 @@
 	<definition name="10Revisroresrevision" extends="base-definition">
 		<put-attribute name="title"
 			value="Revisores revision" />
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/10Revisroresrevision.jsp" />
 		
@@ -123,6 +138,16 @@
 	<definition name="11revisoreditarperfil" extends="base-definition">
 		<put-attribute name="title"
 			value="Revisores editar perfil" />
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/11revisoreditarperfil.jsp" />
 		
@@ -132,6 +157,16 @@
 	<definition name="16vistageneraldelarticulorevisor" extends="base-definition">
 		<put-attribute name="title"
 			value="Revisor vista general" />
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuadministrador" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+		<put-attribute name="bienvenida"
+			value="" /> 
+			<put-attribute name="buscador" 
+			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/revisor/16vistageneraldelarticulorevisor.jsp" />
 			
@@ -143,11 +178,15 @@
 	<definition name="12solicitudesadministrador" extends="base-definition">
 		<put-attribute name="title"
 			value="Solicitudes de administrador" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
-		<put-attribute name="buscador" 
+			value="" /> 
+			<put-attribute name="buscador" 
 			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/administrador/12solicitudesadministrador.jsp" />
@@ -157,10 +196,14 @@
 	<definition name="13historialadministrador" extends="base-definition">
 		<put-attribute name="title"
 			value="Historial de administrador" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
+			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/administrador/13historialadministrador.jsp" />
 	</definition> 
@@ -169,11 +212,15 @@
 	<definition name="14publicaradministrador" extends="base-definition">
 		<put-attribute name="title"
 			value="Publicar administrador" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
-		<put-attribute name="buscador" 
+			value="" /> 
+			<put-attribute name="buscador" 
 			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/administrador/14publicaradministrador.jsp" />
@@ -183,11 +230,15 @@
 	<definition name="15editarperfiladministrador" extends="base-definition">
 		<put-attribute name="title"
 			value="Editar perfil administrador" />
-		<put-attribute name="menuindex"
+		<put-attribute name="menuindex" 
+			value="" />
+		<put-attribute name="menuusuario" 
+			value="" />
+			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
-			value="" />
-		<put-attribute name="buscador" 
+			value="" /> 
+			<put-attribute name="buscador" 
 			value="" />
 		<put-attribute name="body"
 			value="/WEB-INF/views/administrador/15editarperfiladministrador.jsp" />
@@ -199,9 +250,7 @@
 	<definition name="0articuloespecifico" extends="base-definition">
 		<put-attribute name="title"
 			value="Articulo especifico" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/0articuloespecifico.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -209,18 +258,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
-			
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/0articuloespecifico.jsp" />
 	</definition>
 	
 	<!-- Conocimentos especializados -->
 	<definition name="1conocimentosEspecializados1" extends="base-definition">
 		<put-attribute name="title"
 			value="Conocimentos especializados" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/1conocimentosEspecializados1.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -228,17 +274,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/1conocimentosEspecializados1.jsp" />
 	</definition>
 	
 	<!-- Conocimentos generales -->
 	<definition name="2conocimientosgeneralesTI" extends="base-definition">
 		<put-attribute name="title"
 			value="Conocimentos generales" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/2conocimientosgeneralesTI.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -246,17 +290,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/2conocimientosgeneralesTI.jsp" />
 	</definition>
 	
 	<!-- TI a la vanguardia -->
 	<definition name="3tialavanguardia" extends="base-definition">
 		<put-attribute name="title"
 			value="TI a la vanguardias" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/3tialavanguardia.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -264,17 +306,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/3tialavanguardia.jsp" />
 	</definition>
 	
 	<!-- Noticias y eventos TI -->
 	<definition name="4noticiasyeventosti" extends="base-definition">
 		<put-attribute name="title"
 			value="Noticias y eventos TI" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/4noticiasyeventosti.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -282,17 +322,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/4noticiasyeventosti.jsp" />
 	</definition>
 	
 	<!-- Quienes somos publico -->
 	<definition name="5quienessomospublico" extends="base-definition">
 		<put-attribute name="title"
 			value="Quienes somos publico" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/5quienessomospublico.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -300,17 +338,15 @@
 			value="" />
 		<put-attribute name="bienvenida"
 			value="" /> 
-			<put-attribute name="buscador" 
-			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/5quienessomospublico.jsp" />
 	</definition>
 	
 	<!-- Olvido contraseña -->
 	<definition name="olvidocontraseña" extends="base-definition">
 		<put-attribute name="title"
 			value="Olvido contraseña" />
-		<put-attribute name="body"
-			value="/WEB-INF/views/publico/olvidocontraseña.jsp" />
-			<put-attribute name="menuadministrador" 
+		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
@@ -320,6 +356,8 @@
 			value="" /> 
 			<put-attribute name="buscador" 
 			value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/publico/olvidocontraseña.jsp" />
 	</definition>
 	
 		<!-- Index -->
@@ -330,8 +368,10 @@
 			value="" />
 		<put-attribute name="menuusuario" 
 			value="" />
-		<put-attribute name="buscador" 
+			<put-attribute name="menurevisor" 
 			value="" />
+		<put-attribute name="buscador"
+			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/index/index.jsp" />
 	</definition>

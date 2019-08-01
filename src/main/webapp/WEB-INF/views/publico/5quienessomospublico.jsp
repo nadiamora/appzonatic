@@ -3,111 +3,97 @@
 
 <!-- Solo el Body -->
 <body background="../resources/img/fondo7.png">
-<section class="container">
-	
-	<div class="row">
-		<div class="col-md-4"></div>
+	<section class="container">
 
-	</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+
+		</div>
 
 
-	<div class="row">
-		<div class="col-md header4">
-			<div>
-				<nav class="navbar navbar-light1" style="background-color: #e3f2fd";>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search"
-							placeholder="Articulos" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-					</form>
-				</nav>
+
+
+
+		<!--Aqui se inserta el video-->
+		<div class="row video">
+			<div class="col-md-8 anchovideo">
+				<iframe src="../resources/video/presentacion.mp4" frameborder="0"
+					allowfullscreen="allowfullscreen"></iframe>
+
 			</div>
-		</div>
 
-	</div>
-
-
-	<!--Aqui se inserta el video-->
-	<div class="row video">
-		<div class="col-md-8 anchovideo">
-			<iframe src="../resources/video/presentacion.mp4" frameborder="0"
-				allowfullscreen="allowfullscreen"></iframe>
-
-		</div>
-
-		<!--Listadeo de articulos-->
-		<div class="col-md-3 listavideo">
-			<p>
-			<h4 class="cuerpoaca">Cuerpo academico</h4>
-			</p>
-			<div class="list-group">
-				<a href="#" class="list-group-item list-group-item-action">Directora:</a>
-				<a href="#" class="list-group-item list-group-item-action">Barron</a>
-				<a href="#" class="list-group-item list-group-item-action">Jose
-					Rubio</a> <a href="#" class="list-group-item list-group-item-action">Sustaita</a>
+			<!--Listadeo de articulos-->
+			<div class="col-md-3 listavideo">
+				<p>
+				<h4 class="cuerpoaca">Cuerpo academico</h4>
+				</p>
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action">Directora:</a>
+					<a href="#" class="list-group-item list-group-item-action">Barron</a>
+					<a href="#" class="list-group-item list-group-item-action">Jose
+						Rubio</a> <a href="#" class="list-group-item list-group-item-action">Sustaita</a>
+				</div>
 			</div>
+
 		</div>
 
-	</div>
 
+		<!--Contenido-->
+		<div class="row margen">
+			<!--Articulos-->
+			<div class="col-md-12 articulo">
 
-	<!--Contenido-->
-	<div class="row margen">
-		<!--Articulos-->
-		<div class="col-md-12 articulo">
+				<div class="row margen">
+					<div class="col-md-12 vmp">
 
-			<div class="row margen">
-				<div class="col-md-12 vmp">
+						<div>
+							<!--Información de quienes somos-->
+							<ul>
+								<h4 class="card-title1">Información de quienes somos</h4>
+								<li class="media"><img src="../resources/img/ejemplo6.jpg"
+									class="mr-3" alt="...">
+									<div class="media-body">
+										<h5 class="mt-0 mb-1">Visión:</h5>
+										Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+										scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+										vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+										nisi vulputate fringilla. Donec lacinia congue felis in
+										faucibus.
+									</div></li>
+								<li class="media my-4"><img
+									src="../resources/img/ejemplo6.jpg" class="mr-3" alt="...">
+									<div class="media-body">
+										<h5 class="mt-0 mb-1">Propósito:</h5>
+										Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+										scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+										vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+										nisi vulputate fringilla. Donec lacinia congue felis in
+										faucibus.
+									</div></li>
+								<li class="media"><img src="../resources/img/ejemplo6.jpg"
+									class="mr-3" alt="...">
+									<div class="media-body">
+										<h5 class="mt-0 mb-1">Misión:</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel
+											metus scelerisque ante sollicitudin. Cras purus odio,
+											vestibulum in vulputate at, tempus viverra turpis. Fusce
+											condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+											congue felis in faucibus.</p>
 
-					<div>
-						<!--Información de quienes somos-->
-						<ul>
-							<h4 class="card-title1">Información de quienes somos</h4>
-							<li class="media"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
-								<div class="media-body">
-									<h5 class="mt-0 mb-1">Visión:</h5>
-									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-									scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-									vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-									nisi vulputate fringilla. Donec lacinia congue felis in
-									faucibus.
-								</div></li>
-							<li class="media my-4"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
-								<div class="media-body">
-									<h5 class="mt-0 mb-1">Propósito:</h5>
-									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-									scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-									vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-									nisi vulputate fringilla. Donec lacinia congue felis in
-									faucibus.
-								</div></li>
-							<li class="media"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
-								<div class="media-body">
-									<h5 class="mt-0 mb-1">Misión:</h5>
-									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel
-										metus scelerisque ante sollicitudin. Cras purus odio,
-										vestibulum in vulputate at, tempus viverra turpis. Fusce
-										condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-										congue felis in faucibus.</p>
+									</div></li>
+							</ul>
+							<!--Fin de los Artículos-->
 
-								</div></li>
-						</ul>
-						<!--Fin de los Artículos-->
-
+						</div>
 					</div>
+
 				</div>
 
+
 			</div>
 
 
 		</div>
 
-
-	</div>
-
-</section>
+	</section>
 </body>

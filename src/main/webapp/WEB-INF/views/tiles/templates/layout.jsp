@@ -51,6 +51,14 @@
 			</div>
 		</div>
 		<!-- Fin de Sección de menú usuario -->
+		
+		<!-- Inicio de Sección de menú revisor-->
+		<div class="row">
+			<div class="col-md-12">
+				<tiles:insertAttribute name="menurevisor" />
+			</div>
+		</div>
+		<!-- Fin de Sección de menú revisor -->
 
 		<!-- Inicio de Sección de bienvenida -->
 		<div class="row">
