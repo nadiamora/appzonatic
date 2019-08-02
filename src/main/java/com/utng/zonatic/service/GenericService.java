@@ -1,10 +1,10 @@
-package com.utng.integradora.service;
+package com.utng.zonatic.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.utng.integradora.dao.IGenericDao;
+import com.utng.zonatic.dao.IGenericDao;
 
 import java.util.List;
 

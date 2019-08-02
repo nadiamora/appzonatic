@@ -21,13 +21,6 @@
 <body>
 
 	<div class="container">
-		<!-- Inicio de Sección de header -->
-		<div class="row">
-			<div class="col-md-12">
-	            <tiles:insertAttribute name="header" />
-			</div>
-		</div>
-		<!-- Fin de Sección de header -->
 		
 		<!-- Inicio de Sección de body -->
 		<div class="row">

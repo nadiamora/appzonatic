@@ -1,7 +1,8 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <section>
 	<div class="row margen">
 		<div class="col-md-2 header">
-			<img src="../resources/img/logon.png" class="img" />
+			<img src="<c:url value='/resources/img/logon.png' />" class="img" />
 		</div>
 		<div class="col-md-10 header">
 			<!--Navegación-->

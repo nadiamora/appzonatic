@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <section>
 <!--Header 2-->
 	<div class="row">
@@ -28,7 +29,7 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="../resources/img/ejemplo.jpg" class="d-block w-100"
+							<img src="<c:url value='/resources/img/ejemplo.jpg' />" class="d-block w-100"
 								alt="Artículo no Encontrado">
 							<div class="carousel-caption d-none d-md-block">
 								<div class="textodecarrucel"></div>

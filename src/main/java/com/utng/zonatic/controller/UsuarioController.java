@@ -1,4 +1,4 @@
-package com.utng.integradora.controller;
+package com.utng.zonatic.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

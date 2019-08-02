@@ -21,7 +21,6 @@
 			value="/WEB-INF/views/tiles/templates/buscador.jsp" />
 			
 		<put-attribute name="body" value="" />
-		<put-attribute name="body" value="" />
 		<put-attribute name="footer"
 			value="/WEB-INF/views/tiles/templates/footer.jsp" />
 	</definition>

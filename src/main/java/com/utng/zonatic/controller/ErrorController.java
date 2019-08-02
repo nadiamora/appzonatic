@@ -1,4 +1,4 @@
-package com.utng.integradora.controller;
+package com.utng.zonatic.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

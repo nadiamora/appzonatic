@@ -1,4 +1,4 @@
-package com.utng.integradora.configuration;
+package com.utng.zonatic.configuration;
 
 import java.util.Properties;
 
@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "com.utng.integradora.configuration" })
+@ComponentScan({ "com.utng.zonatic.configuration" })
 @PropertySource(value = { "classpath:hibernate.properties" })
 public class HibernateConfiguration {
  
@@ -35,7 +35,7 @@ public class HibernateConfiguration {
 	    public LocalSessionFactoryBean sessionFactory() {
 	        LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 	        sessionFactory.setDataSource(dataSource());
-	        sessionFactory.setPackagesToScan(new String[] { "com.utng.integradora.entity" });
+	        sessionFactory.setPackagesToScan(new String[] { "com.utng.zonatic.entity" });
 	        sessionFactory.setHibernateProperties(hibernateProperties());
 	        return sessionFactory;
 	     }
