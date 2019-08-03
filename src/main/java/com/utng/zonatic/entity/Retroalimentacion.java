@@ -2,37 +2,62 @@ package com.utng.zonatic.entity;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name="retroalimentacion")
 public class Retroalimentacion implements Serializable{
 
 	/**
 	 * serial
 	 */
 	private static final long serialVersionUID = -7363385428438605641L;
-
+	
+	@EmbeddedId
+	private RetroalimentacionId retroalimentacionId;
+	
+	
+	@Id
+	@Column (length=15, nullable=false)
 	private String idRetro;
+	
+	@Column (nullable=false)
 	private String contenidoRetro;
+	
+	@Column (nullable=false)
 	private String fecha;
+		
 	
+	//constructor default
 	
+	public Retroalimentacion() {
+		super();
+	}
 	
 	//constructor
-	public Retroalimentacion(String idRetro, String contenidoRetro, String fecha) {
+
+	public Retroalimentacion(RetroalimentacionId retroalimentacionId, String idRetro, String contenidoRetro,
+			String fecha) {
 		super();
+		this.retroalimentacionId = retroalimentacionId;
 		this.idRetro = idRetro;
 		this.contenidoRetro = contenidoRetro;
 		this.fecha = fecha;
 	}
-	
-//constructor default
-	
-		
-	public Retroalimentacion() {
-		super();
-		
-	}
-	
-	//Generar Getters and setters
 
+	//Generate Getters and setters
+
+	public RetroalimentacionId getRetroalimentacionId() {
+		return retroalimentacionId;
+	}
+
+	public void setRetroalimentacionId(RetroalimentacionId retroalimentacionId) {
+		this.retroalimentacionId = retroalimentacionId;
+	}
 
 	public String getIdRetro() {
 		return idRetro;
@@ -60,3 +85,4 @@ public class Retroalimentacion implements Serializable{
 
 	
 }
+
