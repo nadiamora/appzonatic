@@ -14,49 +14,52 @@ public class Categoria implements Serializable  {
 	
 	@Id //Clave primaria
 	@Column (length=15, nullable=false)
-	private String IdCategoria;
+	private String idCategoria;
 	
 	@Column (length=40, nullable=false)
-	private String NombreCat;
+	private String nombreCat;
 
+	
+	
 	//Constructor 
+
 	public Categoria(String idCategoria, String nombreCat) {
 		super();
-		IdCategoria = idCategoria;
-		NombreCat = nombreCat;
+		this.idCategoria = idCategoria;
+		this.nombreCat = nombreCat;
 	}
+
+	
 
 	//Constructor default
 	public Categoria() {
 		super();
 	}
-	
+
 	//Getters y Setters 
 
+
 	public String getIdCategoria() {
-		return IdCategoria;
+		return idCategoria;
 	}
+
+
 
 	public void setIdCategoria(String idCategoria) {
-		IdCategoria = idCategoria;
+		this.idCategoria = idCategoria;
 	}
+
+
 
 	public String getNombreCat() {
-		return NombreCat;
+		return nombreCat;
 	}
+
+
 
 	public void setNombreCat(String nombreCat) {
-		NombreCat = nombreCat;
+		this.nombreCat = nombreCat;
 	}
-
-	
-	
 	
 
-	
-	
-	
-
-	
-
-}
+	}

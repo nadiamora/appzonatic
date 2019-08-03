@@ -17,75 +17,63 @@ public class Articulo implements Serializable  {
 	
 	@Id //Clave primaria
 	@Column (length=100, nullable=false)
-	private String Titulo;
+	private String titulo;
 	
 	@Column (length=300, nullable=false)
-	private String Imagen;
+	private String imagen;
 
 	@Column ( nullable=false)
-	private String Resena;
+	private String resena;
 	
-	@Column (name = "Numclick")
-	private int Numclick;
+	@Column (name = "numclick")
+	private int numclick;
 	
 	//Constructor 
+
 	public Articulo(String titulo, String imagen, String resena, int numclick) {
 		super();
-		Titulo = titulo;
-		Imagen = imagen;
-		Resena = resena;
-		Numclick = numclick;
-			
+		this.titulo = titulo;
+		this.imagen = imagen;
+		this.resena = resena;
+		this.numclick = numclick;
 	}
- 
+
 	//Constructor default
 	public Articulo() {
 		super();
 	}
 	
 	//Getters y Setters 
-
 	public String getTitulo() {
-		return Titulo;
+		return titulo;
 	}
 
 	public void setTitulo(String titulo) {
-		Titulo = titulo;
+		this.titulo = titulo;
 	}
 
 	public String getImagen() {
-		return Imagen;
+		return imagen;
 	}
 
 	public void setImagen(String imagen) {
-		Imagen = imagen;
+		this.imagen = imagen;
 	}
 
 	public String getResena() {
-		return Resena;
+		return resena;
 	}
 
 	public void setResena(String resena) {
-		Resena = resena;
+		this.resena = resena;
 	}
 
 	public int getNumclick() {
-		return Numclick;
+		return numclick;
 	}
 
 	public void setNumclick(int numclick) {
-		Numclick = numclick;
+		this.numclick = numclick;
 	}
 	
-	
-
-
-	
-
-	
-	
-	
-	
-	
-	
-}
+	}

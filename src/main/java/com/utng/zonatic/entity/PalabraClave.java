@@ -16,43 +16,40 @@ public class PalabraClave implements Serializable  {
 
 	@Id //Clave primaria
 	@Column (length=15, nullable=false)
-	private String IdPalabra;
+	private String idPalabra;
 	
 	@Column ( nullable=false)
-	private String ContenidoNP;
+	private String contenidoNP;
 	
 	//Constructor
 	public PalabraClave(String idPalabra, String contenidoNP) {
 		super();
-		IdPalabra = idPalabra;
-		ContenidoNP = contenidoNP;
+		this.idPalabra = idPalabra;
+		this.contenidoNP = contenidoNP;
 	}
-
 	//Constructor default
 	public PalabraClave() {
 		super();
 		
 	}
-
 	//Getters y Setters
-	
+
 	public String getIdPalabra() {
-		return IdPalabra;
+		return idPalabra;
 	}
-
 	public void setIdPalabra(String idPalabra) {
-		IdPalabra = idPalabra;
+		this.idPalabra = idPalabra;
 	}
-
 	public String getContenidoNP() {
-		return ContenidoNP;
+		return contenidoNP;
 	}
-
 	public void setContenidoNP(String contenidoNP) {
-		ContenidoNP = contenidoNP;
+		this.contenidoNP = contenidoNP;
 	}
-	
 
+
+	
+	
 	
 	
 	

@@ -14,27 +14,37 @@ public class Sistema implements Serializable{
 	private static final long serialVersionUID = -2382662461078603775L;
 
 	@Id //clave primaria
-	private int Vistas;
+	private int vistas;
 
 	//constructor
 	public Sistema(int vistas) {
 		super();
-		Vistas = vistas;
+		this.vistas = vistas;
 	}
+	
 
 	//constructor default
 	public Sistema() {
 		super();
+		
 	}
-
+    
 	//Setters and Getters
 	public int getVistas() {
-		return Vistas;
+		return vistas;
 	}
 
+
 	public void setVistas(int vistas) {
-		Vistas = vistas;
+		this.vistas = vistas;
 	}
+
+
 	
+
+	
+
+	
+		
 	
 }

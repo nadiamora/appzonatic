@@ -8,61 +8,50 @@ public class Utiliza implements Serializable {
 	 * serial
 	 */
 	private static final long serialVersionUID = -7416472837016489601L;
-   private String NumControl;
-   private String FechaFin;
-   private String FechaIni;
+   private String numControl;
+   private String fechaFin;
+   private String fechaIni;
    
    
-   
-   //constructor
-public Utiliza(String numControl, String fechaFin, String fechaIni) {
-	super();
-	NumControl = numControl;
-	FechaFin = fechaFin;
-	FechaIni = fechaIni;
-}
+ //constructor
 
+   public Utiliza(String numControl, String fechaFin, String fechaIni) {
+	super();
+	this.numControl = numControl;
+	this.fechaFin = fechaFin;
+	this.fechaIni = fechaIni;
+}
 
 //Constructor default
 public Utiliza() {
 	super();
 	
 }
-
-
+ //constructor
 public String getNumControl() {
-	return NumControl;
+	return numControl;
 }
-
 
 public void setNumControl(String numControl) {
-	NumControl = numControl;
+	this.numControl = numControl;
 }
-
 
 public String getFechaFin() {
-	return FechaFin;
+	return fechaFin;
 }
-
 
 public void setFechaFin(String fechaFin) {
-	FechaFin = fechaFin;
+	this.fechaFin = fechaFin;
 }
-
 
 public String getFechaIni() {
-	return FechaIni;
+	return fechaIni;
 }
-
 
 public void setFechaIni(String fechaIni) {
-	FechaIni = fechaIni;
+	this.fechaIni = fechaIni;
 }
-   
 
 
-   
-   
-   
-   }
+}
 

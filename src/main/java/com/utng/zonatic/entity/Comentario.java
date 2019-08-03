@@ -16,21 +16,24 @@ public class Comentario implements Serializable {
 	
 	@Id //Clave primaria
 	@Column (length=50, nullable=false)
-	private String IdComentario;
+	private String idComentario;
 	
 	@Column (nullable=false)
-	private String ContenidoCom;
+	private String contenidoCom;
 
 	@Column ( nullable=false)
-	private String Fecha;
-
+	private String fecha;
+	
+	
+	
 	//Constructor
 	public Comentario(String idComentario, String contenidoCom, String fecha) {
 		super();
-		IdComentario = idComentario;
-		ContenidoCom = contenidoCom;
-		Fecha = fecha;
+		this.idComentario = idComentario;
+		this.contenidoCom = contenidoCom;
+		this.fecha = fecha;
 	}
+
 
 	//Constructor default
 	public Comentario() {
@@ -38,40 +41,37 @@ public class Comentario implements Serializable {
 	}
 
 	//Getters y Setters 
-	
+
 	public String getIdComentario() {
-		return IdComentario;
+		return idComentario;
 	}
+
 
 	public void setIdComentario(String idComentario) {
-		IdComentario = idComentario;
+		this.idComentario = idComentario;
 	}
+
 
 	public String getContenidoCom() {
-		return ContenidoCom;
+		return contenidoCom;
 	}
+
 
 	public void setContenidoCom(String contenidoCom) {
-		ContenidoCom = contenidoCom;
+		this.contenidoCom = contenidoCom;
 	}
+
 
 	public String getFecha() {
-		return Fecha;
+		return fecha;
 	}
+
 
 	public void setFecha(String fecha) {
-		Fecha = fecha;
+		this.fecha = fecha;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
+	
+	
 	
 }

@@ -17,52 +17,42 @@ public class Estado implements Serializable {
 	
 	@Id //Clave primaria
 	@Column (length=50, nullable=false)
-	private String IdEstado;
+	private String idEstado;
 	
 	@Column (length=50, nullable=false)
-	private String TipoEstado;
+	private String tipoEstado;
 	
 	//Constructor
-
 	public Estado(String idEstado, String tipoEstado) {
 		super();
-		IdEstado = idEstado;
-		TipoEstado = tipoEstado;
+		this.idEstado = idEstado;
+		this.tipoEstado = tipoEstado;
 	}
-
+	
 	//Constructor default
 	public Estado() {
 		super();
 	}
-
 	//Getters y Setters 
+
 	public String getIdEstado() {
-		return IdEstado;
+		return idEstado;
 	}
 
 	public void setIdEstado(String idEstado) {
-		IdEstado = idEstado;
+		this.idEstado = idEstado;
 	}
 
 	public String getTipoEstado() {
-		return TipoEstado;
+		return tipoEstado;
 	}
 
 	public void setTipoEstado(String tipoEstado) {
-		TipoEstado = tipoEstado;
+		this.tipoEstado = tipoEstado;
 	}
-	
-	
-	
-	
-	
 
 	
-	
-	
-	
-
-	
+		
 
 
 }

@@ -9,46 +9,54 @@ public class Retroalimentacion implements Serializable{
 	 */
 	private static final long serialVersionUID = -7363385428438605641L;
 
-	private String IdRetro;
-	private String ContenidoRetro;
+	private String idRetro;
+	private String contenidoRetro;
+	private String fecha;
 	
 	
 	
 	//constructor
-	public Retroalimentacion(String idRetro, String contenidoRetro) {
+	public Retroalimentacion(String idRetro, String contenidoRetro, String fecha) {
 		super();
-		IdRetro = idRetro;
-		ContenidoRetro = contenidoRetro;
+		this.idRetro = idRetro;
+		this.contenidoRetro = contenidoRetro;
+		this.fecha = fecha;
 	}
-
-
+	
 //constructor default
+	
+		
 	public Retroalimentacion() {
 		super();
 		
 	}
+	
+	//Generar Getters and setters
 
-//Generar Getters and setters
+
 	public String getIdRetro() {
-		return IdRetro;
+		return idRetro;
 	}
-
 
 	public void setIdRetro(String idRetro) {
-		IdRetro = idRetro;
+		this.idRetro = idRetro;
 	}
-
 
 	public String getContenidoRetro() {
-		return ContenidoRetro;
+		return contenidoRetro;
 	}
-
 
 	public void setContenidoRetro(String contenidoRetro) {
-		ContenidoRetro = contenidoRetro;
+		this.contenidoRetro = contenidoRetro;
 	}
-	
-	
-	
+
+	public String getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
+	}
+
 	
 }

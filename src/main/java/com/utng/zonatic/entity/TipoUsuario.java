@@ -15,40 +15,41 @@ public class TipoUsuario implements Serializable{
 	private static final long serialVersionUID = -7072016992233327473L;
 	@Id //clave primaria
 	@Column (length=15, nullable=false)
-	private String IdUsuario;
+	private String idUsuario;
 	@Column (length=50, nullable=false)
-	private String DescUsuario;
+	private String descUsuario;
 	
 	//Contructor
 	public TipoUsuario(String idUsuario, String descUsuario) {
 		super();
-		IdUsuario = idUsuario;
-		DescUsuario = descUsuario;
+		this.idUsuario = idUsuario;
+		this.descUsuario = descUsuario;
 	}
 
 	//Contructor Default
 	public TipoUsuario() {
 		super();
+		
 	}
 
 	//Getters and Setters
+		
 	public String getIdUsuario() {
-		return IdUsuario;
+		return idUsuario;
 	}
 
 	public void setIdUsuario(String idUsuario) {
-		IdUsuario = idUsuario;
+		this.idUsuario = idUsuario;
 	}
 
 	public String getDescUsuario() {
-		return DescUsuario;
+		return descUsuario;
 	}
 
 	public void setDescUsuario(String descUsuario) {
-		DescUsuario = descUsuario;
+		this.descUsuario = descUsuario;
 	}
 	
-	
-	
+
 	
 }

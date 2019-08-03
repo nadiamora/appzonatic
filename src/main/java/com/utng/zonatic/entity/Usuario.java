@@ -17,85 +17,116 @@ public class Usuario implements Serializable{
 	
 	@Id //Clave primaria
 	@Column (length=15, nullable=false)
-	private String NumControl;
+	private String numControl;
 	@Column (length=100, nullable=false)
-	private String Correo;
+	private String correo;
 	@Column (length=50, nullable=false)
-	private String Nombre;
+	private String nombre;
 	@Column (length=30, nullable=false)
-	private String ApellidoPat;
+	private String apellidoPat;
 	@Column (length=30, nullable=false)
-	private String ApellidoMat;
+	private String apellidoMat;
 	@Column (length=20, nullable=false)
-	private String Contrasena;
+	private String contrasena;
+	
+	
+	
 	
 	
 	//Constructor 
 	public Usuario(String numControl, String correo, String nombre, String apellidoPat, String apellidoMat,
 			String contrasena) {
 		super();
-		NumControl = numControl;
-		Correo = correo;
-		Nombre = nombre;
-		ApellidoPat = apellidoPat;
-		ApellidoMat = apellidoMat;
-		Contrasena = contrasena;
+		this.numControl = numControl;
+		this.correo = correo;
+		this.nombre = nombre;
+		this.apellidoPat = apellidoPat;
+		this.apellidoMat = apellidoMat;
+		this.contrasena = contrasena;
 	}
-
+	
+	
+	
 	//Constructor Default
 	public Usuario() {
 		super();
+		
 	}
+
 
 	//Getters and Setters
 	public String getNumControl() {
-		return NumControl;
+		return numControl;
 	}
+
+
 
 	public void setNumControl(String numControl) {
-		NumControl = numControl;
+		this.numControl = numControl;
 	}
+
+
 
 	public String getCorreo() {
-		return Correo;
+		return correo;
 	}
+
+
 
 	public void setCorreo(String correo) {
-		Correo = correo;
+		this.correo = correo;
 	}
+
+
 
 	public String getNombre() {
-		return Nombre;
+		return nombre;
 	}
+
+
 
 	public void setNombre(String nombre) {
-		Nombre = nombre;
+		this.nombre = nombre;
 	}
+
+
 
 	public String getApellidoPat() {
-		return ApellidoPat;
+		return apellidoPat;
 	}
+
+
 
 	public void setApellidoPat(String apellidoPat) {
-		ApellidoPat = apellidoPat;
+		this.apellidoPat = apellidoPat;
 	}
+
+
 
 	public String getApellidoMat() {
-		return ApellidoMat;
+		return apellidoMat;
 	}
+
+
 
 	public void setApellidoMat(String apellidoMat) {
-		ApellidoMat = apellidoMat;
+		this.apellidoMat = apellidoMat;
 	}
+
+
 
 	public String getContrasena() {
-		return Contrasena;
+		return contrasena;
 	}
 
+
+
 	public void setContrasena(String contrasena) {
-		Contrasena = contrasena;
+		this.contrasena = contrasena;
 	}
+
 	
+		
 	
 	
 	
