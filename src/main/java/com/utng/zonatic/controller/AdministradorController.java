@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AdministradorController {
 	
 	//Metodos que se invocara a usuario
-			@RequestMapping(value = {"/12solicitudesadministrador"}, method = RequestMethod.GET)
+			@RequestMapping(value = {"/solicitudes"}, method = RequestMethod.GET)
 			public String show12solicitudesadministrador(Model model) {
 				//Creamos un objeto de tipo usuario
 				
@@ -19,10 +19,10 @@ public class AdministradorController {
 				//Lo pasamos a la vista
 				
 				
-				return "12solicitudesadministrador"; //La vista a invocar
+				return "solicitudes"; //La vista a invocar
 			}
 			
-			@RequestMapping(value = {"/13historialadministrador"}, method = RequestMethod.GET)
+			@RequestMapping(value = {"/historial"}, method = RequestMethod.GET)
 			public String show13historialadministrador(Model model) {
 				//Creamos un objeto de tipo usuario
 				
@@ -31,9 +31,9 @@ public class AdministradorController {
 				//Lo pasamos a la vista
 				
 				
-				return "13historialadministrador"; //La vista a invocar
+				return "historial"; //La vista a invocar
 			}
-			@RequestMapping(value = {"/14publicaradministrador"}, method = RequestMethod.GET)
+			@RequestMapping(value = {"/publicar"}, method = RequestMethod.GET)
 			public String show14publicaradministrador(Model model) {
 				//Creamos un objeto de tipo usuario
 				
@@ -42,9 +42,9 @@ public class AdministradorController {
 				//Lo pasamos a la vista
 				
 				
-				return "14publicaradministrador"; //La vista a invocar
+				return "publicar"; //La vista a invocar
 			}
-			@RequestMapping(value = {"/15editarperfiladministrador"}, method = RequestMethod.GET)
+			@RequestMapping(value = {"/perfil"}, method = RequestMethod.GET)
 			public String show15editarperfiladministrador(Model model) {
 				//Creamos un objeto de tipo usuario
 				
@@ -53,7 +53,7 @@ public class AdministradorController {
 				//Lo pasamos a la vista
 				
 				
-				return "15editarperfiladministrador"; //La vista a invocar
+				return "perfil"; //La vista a invocar
 			}
 
 }

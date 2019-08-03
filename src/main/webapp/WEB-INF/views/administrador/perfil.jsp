@@ -3,11 +3,12 @@
 
 <!-- Solo el Body -->
 
-<body background="../resources/img/fondo7.png">
+<body img background src="<c:url value='/resources/img/fondo7.png'/>"/> 
+
 <section class="container">
 	<!--Editar perfil-->
 	<div class="perfil">
-		<img src="../resources/img/perfil.jpg" width="200" height="150">
+		<img src="<c:url value='/resources/img/perfil.jpg'/>" width="200" height="150"/>
 		<button type="button" class="btn btn-outline-primary">Cambiar
 			foto de perfil</button>
 		<form>

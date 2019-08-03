@@ -26,13 +26,13 @@
 						aria-expanded="false"> Categorías </a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item "
-								href="../publico/2conocimientosgeneralesTI.html">Conocimientos
+								href="conocimientosgenerales">Conocimientos
 								generales TI</a> <a class="dropdown-item "
-								href="../publico/1conocimentosEspecializados1.html">Conocimientos
+								href="conocimentosespecializados">Conocimientos
 								especializados</a> <a class="dropdown-item "
-								href="../publico/3tialavanguardia.html">TI a la vanguardia</a> <a
+								href="tialavanguardia">TI a la vanguardia</a> <a
 								class="dropdown-item "
-								href="../publico/4noticiasyeventosti.html">Noticias y
+								href="noticiasyeventos">Noticias y
 								eventos TIC</a>
 						</div></li>
 
@@ -65,14 +65,14 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo.jpg" width="auto" height="170"
-								class="card-img-top" alt="No se pudo Encontrar el Artículo">
+							<img src="<c:url value='/resources/img/ejemplo.jpg'/>" width="auto" height="170"
+								class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 							</div>
@@ -83,15 +83,15 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo9.jpg" width="auto"
+							<img src="<c:url value='/resources/img/ejemplo9.jpg'/>" width="auto"
 								height="170" class="card-img-top"
-								alt="No se pudo Encontrar el Artículo">
+								alt="No se pudo Encontrar el Artículo/">
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 							</div>
@@ -102,15 +102,15 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo4.jpg" width="auto"
+							<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" width="auto"
 								height="170" class="card-img-top"
-								alt="No se pudo Encontrar el Artículo">
+								alt="No se pudo Encontrar el Artículo"/>
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 							</div>
@@ -125,15 +125,15 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo5.jpg" width="auto"
+							<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" width="auto"
 								height="170" class="card-img-top"
-								alt="No se pudo Encontrar el Artículo">
+								alt="No se pudo Encontrar el Artículo"/>
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 							</div>
@@ -144,15 +144,15 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo6.jpg" width="auto"
+							<img src="<c:url value='resources/img/ejemplo6.jpg'/>" width="auto"
 								height="170" class="card-img-top"
-								alt="No se pudo Encontrar el Artículo">
+								alt="No se pudo Encontrar el Artículo"/>
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 							</div>
@@ -163,16 +163,16 @@
 				<div class="row margen">
 					<div class="col-md-11 subar">
 						<div class="card1" style="width: auto; height: auto;">
-							<img src="../resources/img/ejemplo7.jpg" width="auto"
+							<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" width="auto"
 								height="170" class="card-img-top"
-								alt="No se pudo Encontrar el Artículo">
+								alt="No se pudo Encontrar el Artículo"/>
 							<div class="card-body">
 								<h5 class="card-title">Artículo</h5>
 								<p class="card-text">Aquí va un resumen breve del artículo.</p>
 
 								<ul class="navbar-nav mr-auto">
 									<li class="nav-item active"><a class="nav-link"
-										href="../publico/0articuloespecifico.html"><button
+										href="articulo"><button
 												class="enlacearticulo" type="submit">Ir a</button></a></li>
 								</ul>
 

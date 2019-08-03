@@ -20,22 +20,22 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item"><a class="nav-link"
-									href="12solicitudesadministrador.html">Solicitudes</a></li>
+									href="solicitudes">Solicitudes</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="14publicaradministrador.html">Validar articulo</a></li>
+									href="publicar">Validar articulo</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="13historialadministrador.html">Historial</a></li>
+									href="historial">Historial</a></li>
 							</ul>
 
 							<!--Boton desplegable de configuración-->
 
 							<div class="dropdown">
 								<button onclick="myFunction()" class="dropbtn">
-									<img src="../resources/img/16.jpg" width="15%" /> Perfil
+									<img src="<c:url value='/resources/img/16.jpg'/>" width="15%" /> Perfil
 								</button>
 								<div id="myDropdown" class="dropdown-content">
-									<a href="15editarperfiladministrador.html">Editar Perfil</a> <a
-										href="../index/index.html">Cerrar sesión</a>
+									<a href="perfil">Editar Perfil</a> <a
+										href="../">Cerrar sesión</a>
 								</div>
 							</div>
 

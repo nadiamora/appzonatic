@@ -67,7 +67,7 @@
 					<div class="row margen">
 						<div class="col-md agregar1">
 							<ul>
-								<a href="16vistageneraldelarticulorevisor.html"
+								<a href="revision"
 									class="btn btn-primary"> Vista general del articulo</a>
 							</ul>
 						</div>
@@ -115,8 +115,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 															Phasellus imperdiet, nulla et dictum interdum, nisi lorem
@@ -148,8 +148,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
 															lorem egestas vitae scelerisque enim ligula venenatis
@@ -259,7 +259,7 @@
 					<div class="row margen">
 						<div class="col-md agregar1">
 							<ul>
-								<a href="16vistageneraldelarticulorevisor.html"
+								<a href="revision"
 									class="btn btn-primary"> Vista general del articulo</a>
 							</ul>
 						</div>
@@ -307,8 +307,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 															Phasellus imperdiet, nulla et dictum interdum, nisi lorem
@@ -340,8 +340,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
 															lorem egestas vitae scelerisque enim ligula venenatis
@@ -446,7 +446,7 @@
 					<div class="row margen">
 						<div class="col-md agregar1">
 							<ul>
-								<a href="16vistageneraldelarticulorevisor.html"
+								<a href="revision"
 									class="btn btn-primary"> Vista general del articulo</a>
 							</ul>
 						</div>
@@ -494,8 +494,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 															Phasellus imperdiet, nulla et dictum interdum, nisi lorem
@@ -527,8 +527,8 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-															alt="Artículo no Encontrado">
+														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
 															lorem egestas vitae scelerisque enim ligula venenatis
@@ -614,7 +614,7 @@
 					<div class="row margen">
 						<div class="col-md agregar">
 							<ul>
-								<a href="10Revisroresrevision.html" class="btn btn-primary">
+								<a href="agregar" class="btn btn-primary">
 									<< Agregar</a>
 							</ul>
 
@@ -630,8 +630,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo6.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -650,7 +650,7 @@
 					<div class="row margen">
 						<div class="col-md agregar">
 							<ul>
-								<a href="10Revisroresrevision.html" class="btn btn-primary">
+								<a href="agregar" class="btn btn-primary">
 									<< Agregar</a>
 							</ul>
 
@@ -665,8 +665,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo7.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -684,7 +684,7 @@
 					<div class="row margen">
 						<div class="col-md agregar">
 							<ul>
-								<a href="10Revisroresrevision.html" class="btn btn-primary">
+								<a href="agregar" class="btn btn-primary">
 									<< Agregar</a>
 							</ul>
 

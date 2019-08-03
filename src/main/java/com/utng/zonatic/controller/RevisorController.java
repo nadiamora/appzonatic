@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class RevisorController {
 
 	//Metodos que se invocara a usuario
-		@RequestMapping(value = {"/10Revisroresrevision"}, method = RequestMethod.GET)
+		@RequestMapping(value = {"/agregar"}, method = RequestMethod.GET)
 		public String show10Revisroresrevision(Model model) {
 			//Creamos un objeto de tipo usuario
 			
@@ -19,10 +19,10 @@ public class RevisorController {
 			//Lo pasamos a la vista
 			
 			
-			return "10Revisroresrevision"; //La vista a invocar
+			return "agregar"; //La vista a invocar
 		}
 		
-		@RequestMapping(value = {"/11revisoreditarperfil"}, method = RequestMethod.GET)
+		@RequestMapping(value = {"/miperfil"}, method = RequestMethod.GET)
 		public String show11revisoreditarperfil(Model model) {
 			//Creamos un objeto de tipo usuario
 			
@@ -31,10 +31,10 @@ public class RevisorController {
 			//Lo pasamos a la vista
 			
 			
-			return "11revisoreditarperfil"; //La vista a invocar
+			return "miperfil"; //La vista a invocar
 		}
 		
-		@RequestMapping(value = {"/16vistageneraldelarticulorevisor"}, method = RequestMethod.GET)
+		@RequestMapping(value = {"/revision"}, method = RequestMethod.GET)
 		public String show16vistageneraldelarticulorevisor(Model model) {
 			//Creamos un objeto de tipo usuario
 			
@@ -43,6 +43,6 @@ public class RevisorController {
 			//Lo pasamos a la vista
 			
 			
-			return "16vistageneraldelarticulorevisor"; //La vista a invocar
+			return "revision"; //La vista a invocar
 		}
 }

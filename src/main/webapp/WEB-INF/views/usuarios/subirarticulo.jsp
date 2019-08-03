@@ -164,8 +164,8 @@
 
 									<div class="row margenadministrararticulo">
 										<div class="col-md-10 subar rreseña">
-											<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-												alt="Artículo no Encontrado">
+											<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+												alt="Artículo no Encontrado"/>
 											<p>
 												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 												Phasellus imperdiet, nulla et dictum interdum, nisi lorem

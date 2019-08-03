@@ -41,8 +41,8 @@
 						<!--Información de quienes somos-->
 						<ul>
 							<h4 class="card-title1">Información de quienes somos</h4>
-							<li class="media"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
+							<li class="media"><img src="<c:url value='/resources/img/ejemplo6.jpg'/>"
+								class="mr-3" alt="..."/>
 								<div class="media-body">
 									<h5 class="mt-0 mb-1">Visión:</h5>
 									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -51,8 +51,8 @@
 									nisi vulputate fringilla. Donec lacinia congue felis in
 									faucibus.
 								</div></li>
-							<li class="media my-4"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
+							<li class="media my-4"><img src="<c:url value='/resources/img/ejemplo6.jpg'/>"
+								class="mr-3" alt="..."/>
 								<div class="media-body">
 									<h5 class="mt-0 mb-1">Propósito:</h5>
 									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -61,8 +61,8 @@
 									nisi vulputate fringilla. Donec lacinia congue felis in
 									faucibus.
 								</div></li>
-							<li class="media"><img src="../resources/img/ejemplo6.jpg"
-								class="mr-3" alt="...">
+							<li class="media"><img src="<c:url value='/resources/img/ejemplo6.jpg'/>"
+								class="mr-3" alt="..."/>
 								<div class="media-body">
 									<h5 class="mt-0 mb-1">Misión:</h5>
 									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel

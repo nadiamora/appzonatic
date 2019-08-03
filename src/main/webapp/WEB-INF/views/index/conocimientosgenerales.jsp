@@ -9,22 +9,7 @@
 		<div class="col-md-4"></div>
 
 	</div>
-
-
-
-
-
-
-
-
-
-
 	<!--Header 2-->
-
-
-
-
-
 	<div class="row header8">
 		<div class="col-md-4 header8">
 			<div class="listaarticulos">
@@ -37,20 +22,20 @@
 
 
 				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="../index.html"
-					id="navbarDropdown" role="button" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false">Categorias</a>
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false">Categorias</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item " href="2conocimientosgeneralesTI.html">Conocimientos
-							generales TI</a> <a class="dropdown-item active"
-							href="1conocimentosEspecializados1.html">Conocimientos
+						<a class="dropdown-item active"
+							href="conocimientosgenerales">Conocimientos generales
+							TI</a> <a class="dropdown-item "
+							href="conocimentosespecializados">Conocimientos
 							especializados</a> <a class="dropdown-item "
-							href="3tialavanguardia.html">TI a la vanguardia</a> <a
-							class="dropdown-item " href="4noticiasyeventosti.html">Noticias
+							href="tialavanguardia">TI a la vanguardia</a> <a
+							class="dropdown-item " href="noticiasyeventos">Noticias
 							y eventos TIC</a>
-					</div></li>
-
-				</ul>
+					</div>
+				</li>
 
 			</nav>
 		</div>
@@ -68,7 +53,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md header2">
-			<h2 class="colorcategorias">Conocimientos especializados</h2>
+			<h2 class="colorcategorias">Conocimientos generales TI</h2>
 		</div>
 
 	</div>
@@ -82,8 +67,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -99,8 +84,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo9.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo9.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -116,8 +101,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo4.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -137,8 +122,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo5.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -154,8 +139,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo6.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -171,8 +156,8 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="../resources/img/ejemplo7.jpg" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo">
+						<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" width="auto" height="170"
+							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -204,5 +189,6 @@
 		</nav>
 
 	</div>
+
 </section>
 </body>

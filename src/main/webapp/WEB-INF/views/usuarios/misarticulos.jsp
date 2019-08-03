@@ -32,8 +32,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo2.jpeg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo2.jpeg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -94,8 +94,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo3.jpg" class="card-img"
-									alt="Imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo3.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -156,8 +156,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo4.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -224,8 +224,8 @@
 					<div class="card mb-3" style="max-width: 540 px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo5.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -252,8 +252,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo6.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -278,8 +278,8 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../img/ejemplo7.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">

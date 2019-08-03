@@ -36,7 +36,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="../resources/img/ejemplo2.png" class="d-block w-100"
+							<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
 								alt="Artículo no Encontrado">
 							<div class="carousel-caption d-none d-md-block">
 								<div class="textodecarrucel">
@@ -46,7 +46,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="../resources/img/utng.jpg" class="d-block w-100"
+							 <img src="<c:url value='/resources/img/utng.jpg'/>" class="d-block w-100"
 								alt="Artículo no Encontrado">
 							<div class="carousel-caption d-none d-md-block">
 

@@ -20,10 +20,10 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item active"><a class="nav-link"
-									href="index.html">Inicio <span class="sr-only">(current)</span></a>
+									href="/zonatic">Inicio <span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link"
-									href="../publico/5quienessomospublico.html">Quienes Somos</a></li>
+									href="quienessomos">Quienes Somos</a></li>
 								<li class="nav-item">
 							</ul>
 							<!-- Button trigger modal -->
@@ -65,7 +65,7 @@
 											</form>
 
 
-											<a class="nav-link" href="../publico/olvidocontraseña.html">Recuperar
+											<a class="nav-link" href="recuperar">Recuperar
 												contraseña</a>
 
 										</div>

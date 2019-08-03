@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UsuarioController {
 
 	//Metodos que se invocara a usuario
-	@RequestMapping(value = {"/6usuarioadministrarticulo"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/misarticulos"}, method = RequestMethod.GET)
 	public String show6usuarioadministrarticulo(Model model) {
 		//Creamos un objeto de tipo usuario
 		
@@ -19,10 +19,10 @@ public class UsuarioController {
 		//Lo pasamos a la vista
 		
 		
-		return "6usuarioadministrarticulo"; //La vista a invocar
+		return "misarticulos"; //La vista a invocar
 	}
 	
-	@RequestMapping(value = {"/7usuariosubirarticulo"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/subirarticulo"}, method = RequestMethod.GET)
 	public String show7usuariosubirarticulo(Model model) {
 		//Creamos un objeto de tipo usuario
 		
@@ -31,10 +31,10 @@ public class UsuarioController {
 		//Lo pasamos a la vista
 		
 		
-		return "7usuariosubirarticulo"; //La vista a invocar
+		return "subirarticulo"; //La vista a invocar
 	}
 	
-	@RequestMapping(value = {"/8usuarioquienessomos"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/nosotros"}, method = RequestMethod.GET)
 	public String show8usuarioquienessomos(Model model) {
 		//Creamos un objeto de tipo usuario
 		
@@ -43,10 +43,10 @@ public class UsuarioController {
 		//Lo pasamos a la vista
 		
 		
-		return "8usuarioquienessomos"; //La vista a invocar
+		return "nosotros"; //La vista a invocar
 	}
 	
-	@RequestMapping(value = {"/9usuarioeditarperfil"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/editarperfil"}, method = RequestMethod.GET)
 	public String show9usuarioeditarperfil(Model model) {
 		//Creamos un objeto de tipo usuario
 		
@@ -55,6 +55,6 @@ public class UsuarioController {
 		//Lo pasamos a la vista
 		
 		
-		return "9usuarioeditarperfil"; //La vista a invocar
+		return "editarperfil"; //La vista a invocar
 	}
 }

@@ -20,12 +20,12 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item active"><a class="nav-link"
-									href="../index/index.html">Articulos en general<span
+									href="../">Articulos en general<span
 										class="sr-only">(current)</span></a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="8usuarioquienessomos.html">Quienes Somos</a></li>
+									href="nosotros">Quienes Somos</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="6usuarioadministrarticulo.html">Administrar
+									href="misarticulos">Administrar
 										articulo</a></li>
 							</ul>
 
@@ -36,8 +36,8 @@
 									<img src="../resources/img/16.jpg" width="15%" /> Perfil
 								</button>
 								<div id="myDropdown" class="dropdown-content">
-									<a href="9usuarioeditarperfil.html">Editar Perfil</a> <a
-										href="../index/index.html">Cerrar sesión</a>
+									<a href="editarperfil">Editar Perfil</a> <a
+										href="../">Cerrar sesión</a>
 								</div>
 							</div>
 
