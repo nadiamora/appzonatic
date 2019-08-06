@@ -2,7 +2,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!-- Solo el Body -->
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
  <!--Contenido-->
 	<div class="row margenadministrararticulo">
@@ -74,9 +74,9 @@
 						<!-- Button trigger modal -->
 						<div class="col-md agregar1">
 							<ul>
-								<button type="button" class="btn btn-primary"
-									data-toggle="modal" data-target="#exampleModalLong">
-									Vista previa del articulo</button>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+									Vista previa del articulo
+								</button>
 							</ul>
 						</div>
 
@@ -115,7 +115,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -148,7 +148,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
@@ -307,7 +307,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -340,7 +340,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
@@ -494,7 +494,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -527,7 +527,7 @@
 
 												<div class="row margenadministrararticulo">
 													<div class="col-md-10 subar rreseña">
-														<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+														<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 															alt="Artículo no Encontrado"/>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 															elit. Phasellus imperdiet, nulla et dictum interdum, nisi
@@ -594,8 +594,8 @@
 					<div class="card mb-3" style="max-width: 540 px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="../resources/img/ejemplo5.jpg" class="card-img"
-									alt="imagen no encontrada">
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg" class="card-img"
+									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
@@ -630,7 +630,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -665,7 +665,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">

@@ -2,7 +2,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!-- Solo el Body -->
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 		
 	<div class="row">
@@ -19,7 +19,7 @@
 				</hgroup>
 
 				<div class="media">
-					<img src="../resources/img/utng.jpg" class="mr-3" alt="...">
+					<img src="${pageContext.request.contextPath}/resources/img/utng.jpg" class="mr-3" alt="..."/>
 					<div class="">
 						<h5 class="mt-0">Media heading</h5>
 						<p>
@@ -75,7 +75,7 @@
 			<div class="row" align="center">
 				<div class="col-md" align="center">
 					<div class="comentador">
-						<img src="../resources/img/perfil.jpg">
+						<img src="${pageContext.request.contextPath}/resources/img/perfil.jpg"/>
 					</div>
 
 					<form class="otros">
@@ -103,7 +103,7 @@
 						<div class="row">
 							<div class="col-md">
 								<div class="comentador">
-									<img src="../resources/img/nadia.jpg" width="220" height="80">
+									<img src="${pageContext.request.contextPath}/resources/img/nadia.jpg" width="220" height="80"/>
 								</div>
 								<div style="padding: 12px; line-height: 1.4;" align="left">
 									<b>Nadia Mora:</b> Muy buen artículo.

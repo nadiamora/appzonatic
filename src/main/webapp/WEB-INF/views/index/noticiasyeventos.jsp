@@ -2,7 +2,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!-- Solo el Body -->
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 	
 	<div class="row">
@@ -19,7 +19,7 @@
 		</div>
 		<div class="col-md-4 header8">
 			<nav class="navbar navbar-expand-lg"
-				style="background-color: #e3f2fd";>
+				style="background-color: #e3f2fd">
 
 
 				<li class="nav-item dropdown"><a
@@ -41,7 +41,7 @@
 			</nav>
 		</div>
 		<div class="col-md-4 header8">
-			<nav class="navbar navbar-light1" style="background-color: #e3f2fd";>
+			<nav class="navbar navbar-light1" style="background-color: #e3f2fd">
 				</ul>
 				<form class="my-1 my-lg-0">
 					<input class=" mr-sm-1" type="search" placeholder="Articulos"
@@ -68,7 +68,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -85,7 +85,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo9.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo9.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -102,7 +102,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo4.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -123,7 +123,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -140,7 +140,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -157,7 +157,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -190,5 +190,5 @@
 		</nav>
 
 	</div>
-</sectiaon>
+</section>
 </body>

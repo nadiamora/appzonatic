@@ -3,7 +3,7 @@
 
 <!-- Solo el Body -->
 
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 	<!--Contenido-->
 	<div class="row margen">
@@ -14,7 +14,7 @@
 			</h5>
 			<div class="row margen">
 				<div class="col-md-12 subar rarticulo">
-					<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+					<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 						alt="Artículo no Encontrado"/>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -51,7 +51,7 @@
 			</h5>
 			<div class="row margen">
 				<div class="col-md-12 subar rreseña">
-					<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+					<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 						alt="Artículo no Encontrado"/>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 						Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque

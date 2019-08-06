@@ -2,7 +2,7 @@
 <section>
 	<div class="row margen">
 		<div class="col-md-2 header">
-			<img src="<c:url value='/resources/img/logon.png' />" class="img" />
+			<img src="${pageContext.request.contextPath}/resources/img/logon.png" class="img" />
 		</div>
 		<div class="col-md-10 header">
 			<!--Navegación-->

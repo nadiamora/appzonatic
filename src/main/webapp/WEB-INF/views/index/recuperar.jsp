@@ -2,7 +2,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!-- Solo el Body -->
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 	
 	<div class="row">

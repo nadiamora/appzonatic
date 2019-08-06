@@ -2,9 +2,10 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!-- Solo el Body -->
-<body background="../resources/img/fondo7.png">
+<body
+	background="<c:url value='${pageContext.request.contextPath}/resources/img/fondo7.png'/>" />
 <section class="container">
-	
+
 	<div class="row">
 		<div class="col-md-4"></div>
 
@@ -20,7 +21,7 @@
 		</div>
 		<div class="col-md-4 header8">
 			<nav class="navbar navbar-expand-lg"
-				style="background-color: #e3f2fd";>
+				style="background-color: #e3f2fd">
 
 
 				<li class="nav-item dropdown"><a
@@ -31,9 +32,8 @@
 						<a class="dropdown-item " href="conocimientosgenerales">Conocimientos
 							generales TI</a> <a class="dropdown-item active"
 							href="conocimentosespecializados">Conocimientos
-							especializados</a> <a class="dropdown-item "
-							href="tialavanguardia">TI a la vanguardia</a> <a
-							class="dropdown-item " href="noticiasyeventos">Noticias
+							especializados</a> <a class="dropdown-item " href="tialavanguardia">TI
+							a la vanguardia</a> <a class="dropdown-item " href="noticiasyeventos">Noticias
 							y eventos TIC</a>
 					</div></li>
 
@@ -69,8 +69,9 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -86,8 +87,10 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo9.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img
+							src="${pageContext.request.contextPath}/resources/img/ejemplo9.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -103,8 +106,10 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img
+							src="${pageContext.request.contextPath}/resources/img/ejemplo4.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -124,8 +129,10 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img
+							src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -141,8 +148,10 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img
+							src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>
@@ -158,8 +167,10 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" width="auto" height="170"
-							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
+						<img
+							src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg"
+							width="auto" height="170" class="card-img-top"
+							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
 							<p class="card-text">Aquí va un resumen breve del artículo.</p>

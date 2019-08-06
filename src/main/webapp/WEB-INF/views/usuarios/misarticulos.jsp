@@ -3,14 +3,14 @@
 
 <!-- Solo el Body -->
 
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 
 	<!--Header 2-->
 	<div class="row margen">
 		<div class="col-md cabeza5">
 			<ul>
-				<a href="7usuariosubirarticulo.html" class="btn btn-primary">Subirartículo</a>
+				<a href="subirarticulo" class="btn btn-primary">Subirartículo</a>
 			</ul>
 
 		</div>
@@ -32,7 +32,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo2.jpeg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.jpeg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -94,7 +94,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo3.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo3.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -156,7 +156,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo4.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo4.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -224,7 +224,7 @@
 					<div class="card mb-3" style="max-width: 540 px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo5.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -252,7 +252,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo6.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">
@@ -278,7 +278,7 @@
 					<div class="card mb-3" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="<c:url value='/resources/img/ejemplo7.jpg'/>" class="card-img"
+								<img src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg" class="card-img"
 									alt="imagen no encontrada"/>
 							</div>
 							<div class="col-md-8">

@@ -1,7 +1,7 @@
 <section>
 <div class="row margen">
 		<div class="col-md-2 header">
-			<img src="../resources/img/logon.png" class="img" />
+			<img src="${pageContext.request.contextPath}/resources/img/logon.png" class="img" />
 		</div>
 		<div class="col-md-10 header">
 			<!--Navegación-->
@@ -28,7 +28,7 @@
 
 							<div class="dropdown">
 								<button onclick="myFunction()" class="dropbtn">
-									<img src="<c:url value='/resources/img/16.jpg'/>" width="15%" /> Perfil
+									<img src="${pageContext.request.contextPath}/resources/img/16.jpg" width="15%" /> Perfil
 								</button>
 								<div id="myDropdown" class="dropdown-content">
 									<a href="miperfil">Editar Perfil</a> <a

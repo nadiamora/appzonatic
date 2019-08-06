@@ -3,7 +3,7 @@
 
 <!-- Solo el Body -->
 
-<body background="../resources/img/fondo7.png">
+<body background="${pageContext.request.contextPath}/resources/img/fondo7.png">
 <section class="container">
 		<!--Header-->
 		
@@ -108,8 +108,8 @@
 						<h5 class="card-title">Imágenes</h5>
 						<p class="card-text">Agregar solamente una imagen que se
 							identifique con tu articulo.</p>
-						<img src="../resources/img/ejemplo2.jpeg" class="card-imgi"
-							alt="imagen no encontrada">
+						<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.jpeg" class="card-imgi"
+							alt="imagen no encontrada"/>
 
 						<form>
 							<div class="form-group">
@@ -169,8 +169,8 @@
 
 										<div class="row margenadministrararticulo">
 											<div class="col-md-10 subar rreseña">
-												<img src="../resources/img/ejemplo2.png" class="d-block w-100"
-													alt="Artículo no Encontrado">
+												<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
+													alt="Artículo no Encontrado"/>
 												<p>
 													Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 													Phasellus imperdiet, nulla et dictum interdum, nisi lorem
@@ -201,7 +201,7 @@
 
 										<div class="row margenadministrararticulo">
 											<div class="col-md-10 subar rreseña">
-												<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
+												<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
 													alt="Artículo no Encontrado"/>
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing
 													elit. Phasellus imperdiet, nulla et dictum interdum, nisi

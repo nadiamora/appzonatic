@@ -29,15 +29,15 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="<c:url value='/resources/img/ejemplo.jpg' />" class="d-block w-100"
-								alt="Artículo no Encontrado">
+							<img src="${pageContext.request.contextPath}/resources/img/ejemplo.jpg" class="d-block w-100"
+								alt="Artículo no Encontrado"/>
 							<div class="carousel-caption d-none d-md-block">
 								<div class="textodecarrucel"></div>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="<c:url value='/resources/img/ejemplo2.png'/>" class="d-block w-100"
-								alt="Artículo no Encontrado">
+							<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.png" class="d-block w-100"
+								alt="Artículo no Encontrado"/>
 							<div class="carousel-caption d-none d-md-block">
 								<div class="textodecarrucel">
 									<h4>Segundo artículo más visto</h4>
@@ -46,8 +46,8 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							 <img src="<c:url value='/resources/img/utng.jpg'/>" class="d-block w-100"
-								alt="Artículo no Encontrado">
+							 <img src="${pageContext.request.contextPath}/resources/img/utng.jpg" class="d-block w-100"
+								alt="Artículo no Encontrado"/>
 							<div class="carousel-caption d-none d-md-block">
 
 
