@@ -114,6 +114,7 @@
 	<!-- Script javaScript -->
 	<script src="<c:url value='/resources/js/jquery-3.4.1.min.js' />"></script>
 	<script src="<c:url value='/resources/js/bootstrap.min.js' />"></script>
+	 <script src="<c:url value='/resources/js/login.js' />"></script>
 	 <script>
     
     

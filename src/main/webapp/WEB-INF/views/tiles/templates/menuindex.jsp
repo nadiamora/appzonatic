@@ -49,20 +49,13 @@
 										</div>
 										<div class="modal-body">
 
-											<form>
-												<div class="form-group">
-													<label for="exampleInputEmail1"></label> <input
-														type="email" class="form-control" id="exampleInputEmail1"
-														aria-describedby="emailHelp" placeholder="Usuario">
-													<small id="emailHelp" class="form-text text-muted"></small>
-												</div>
-												<div class="form-group">
-													<label for="exampleInputPassword1"></label> <input
-														type="password" class="form-control"
-														id="exampleInputPassword1" placeholder="Contraseña">
-												</div>
-												<button type="Envíar" class="btn btn-primary">Ingresar</button>
+											<form id="formLogin">
+												<input type="text" id="numControl" class="form-Control" placeholder="Número de control"/>
+												<input type="password" class="form-control" id="contrasena" placeholder="Contraseña"/>
+												
+												<button type="Envíar" class="btn btn-primary" id="loginButton">Ingresar</button>
 											</form>
+
 
 
 											<a class="nav-link" href="recuperar">Recuperar
