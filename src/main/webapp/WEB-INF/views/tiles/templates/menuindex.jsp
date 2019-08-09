@@ -87,64 +87,51 @@
 										</div>
 										<div class="modal-body">
 
-											<form>
-												<div class="form-group">
-													<label for="exampleFormControlInput1">E-mail</label> <input
-														type="email" class="form-control"
-														id="exampleFormControlInput1"
-														placeholder="nombre@ejemplo.com">
-												</div>
-												<div class="form-group row">
-													<label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-													<div class="col-sm-10">
+											<form id="formRegister">
+
+												
+													 <input type="email" class="form-control" id="correo"
+														placeholder="nombre@ejemplo.com" />
+												
+													<label for="contrasenaRegister" class="col-sm-2 col-form-label">Contraseña</label>
 														<input type="password" class="form-control"
-															id="inputPassword" placeholder="">
-													</div>
-												</div>
-												<div class="form-group row">
-													<label for="inputPassword" class="col-sm-2 col-form-label">Confirmar
+															id="contrasenaRegister" placeholder="">
+															
+													<label for="contrasenaRepetir" class="col-sm-2 col-form-label">Confirmar
 														contraseña</label>
-													<div class="col-sm-10">
 														<input type="password" class="form-control"
-															id="inputPassword" placeholder="">
-													</div>
-												</div>
-												<div class="form-group">
-													<label for="formGroupExampleInput">Nombre de
+															id="contrasenaRepetir" placeholder="">
+															
+													<label for="nombre">Nombre de
 														Usuario</label> <input type="text" class="form-control"
-														id="formGroupExampleInput" placeholder="">
-												</div>
-												<div class="form-group">
-													<label for="formGroupExampleInput">Apellido Paterno</label>
-													<input type="text" class="form-control"
-														id="formGroupExampleInput" placeholder="">
-												</div>
-												<div class="form-group">
-													<label for="formGroupExampleInput">Apellido Materno</label>
-													<input type="text" class="form-control"
-														id="formGroupExampleInput" placeholder="">
-												</div>
-												<div class="form-group">
-													<label for="formGroupExampleInput">Número de
+														id="nombre" placeholder="">
+														
+													<label for="apellidoPat">Apellido Paterno</label>
+													<input type="text" class="form-control" id="apellidoPat"
+														placeholder="">
+														
+													<label for="apellidoMat">Apellido Materno</label>
+													<input type="text" class="form-control" id="apellidoMat"
+														placeholder="">
+														
+													<label for="numControlRegister">Número de
 														control</label> <input type="text" class="form-control"
-														id="formGroupExampleInput" placeholder="">
-												</div>
-												<p>Escoja algún tipo de usuario</p>
-												<select class="form-control">
+														id="numControlRegister" placeholder="">
+														
+													<p>Escoja algún tipo de usuario</p>
+													<select id="idUsuario">
 
-													<option>Usuario</option>
-													<option>Revisor contenido</option>
-													<option>Revisor estilo</option>
-													<option>Administrador</option>
-												</select>
-										</div>
-										</form>
+														<option value="1"> Usuario</option>
+														<option value="2">Revisor contenido</option>
+														<option value="3">Revisor estilo</option>
+														<option value="4">Administrador</option>
+													</select>
+												
+												
+												<button  class="btn btn-secondary" data-dismiss="modal" id="RegisterButton">Envíar</button>
+												
 
-
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary"
-												data-dismiss="modal">Envíar</button>
-										</div>
+											</form>
 									</div>
 								</div>
 							</div>
