@@ -19,10 +19,10 @@
 			<h4 class="cuerpoaca">Cuerpo academico</h4>
 			</p>
 			<div class="list-group">
-				<a href="#" class="list-group-item list-group-item-action">Directora:</a>
-				<a href="#" class="list-group-item list-group-item-action">Barron</a>
-				<a href="#" class="list-group-item list-group-item-action">Jose
-					Rubio</a> <a href="#" class="list-group-item list-group-item-action">Sustaita</a>
+				<a href="#" class="list-group-item list-group-item-action">LSC. Apolinar Trejo Cuevas</a>
+				<a href="#" class="list-group-item list-group-item-action">MTIE. Gerardo Parra Rodriguez</a>
+				<a href="#" class="list-group-item list-group-item-action">MTI. Maria Teresa Diaz Robledo</a>
+				<a href="#" class="list-group-item list-group-item-action">ISC. Javier Jesus Torres Yañez</a>
 			</div>
 		</div>
 	</div>

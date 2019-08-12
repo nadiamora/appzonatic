@@ -4,26 +4,34 @@ $(document).ready(function() {
 		 
 		
 		var correo = $('#correo').val();
-		var contrasena = $('#contrasenaRegister').val();
+		var contrasena = $('#contrasenaRegistrar').val();
 		var nombre = $('#nombre').val();
 		var apellidoPat = $('#apellidoPat').val();
 		var apellidoMat = $('#apellidoMat').val();
-		var numControl = $('#numControlRegister').val();
+		var numControl = $('#numControlRegistrar').val();
 		var idUsuario = $('#idUsuario').val();
 		
-		var contenido = {"correo": correo, "contrasena": contrasena, "nombre": nombre, "apellidoPat": apellidoPat, "apellidoMat": apellidoMat, "numControl": numControl,  "idUsuario":  idUsuario};
-		console.log(contenido);
+		
+		var usuario = {"correo": correo, "contrasena": contrasena, "nombre": nombre, "apellidoPat": apellidoPat, "apellidoMat": apellidoMat, "numControl": numControl,  
+				"idUsuario":  {
+					"idUsuario": idUsuario,
+					"descUsuario":""
+				}};
+		console.log("Datos");
+		console.log(usuario);
+		var url = getContextPath() + '/processRegister';
+		console.log("url " + url);
 		$.ajax({
-            url: 'http://localhost:8011/zonatic/processRegister',
+            url: url,
             type: "POST",
-            contentType : "aplication/json",
+            contentType: "application/json; charset=utf-8" ,            
             dataType : 'json',
-            data: JSON.stringify(contenido),
+            data: JSON.stringify(usuario),
             success: function(data) {
             	 var exito = 'success';
             	 if (exito.localeCompare(data['msg']) == 0) {
-            		 $('#exampleModal').modal('hide');
-            		 window.location.href = "http://localhost:8011/zonatic/index/articulo"
+            		 $('#exampleModalCenter').modal('hide');
+            		 window.location.href = getContextPath()
             	 } else{
             		 alert('Datos incorrectos');
             	 }
@@ -37,7 +45,10 @@ $(document).ready(function() {
              }
         });
  
-		//$('#exampleModal').modal('hide');
         event.preventDefault();
     });
-}) 
+})
+
+function getContextPath() {
+   return window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));
+}

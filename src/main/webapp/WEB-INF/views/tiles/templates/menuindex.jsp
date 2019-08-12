@@ -87,51 +87,54 @@
 										</div>
 										<div class="modal-body">
 
-											<form id="formRegister">
+											<form id="formRegistrar">
+									                    <div class="form-group">
+									                        <label for="correo">E-mail</label> <input type="email" class="form-control" id="correo"
+									                            placeholder="nombre@ejemplo.com">
+									                    </div>
+									                    <div class="form-group row">
+									                        <label for="contrasenaRegistrar" class="col-sm-2 col-form-label">Contraseña</label>
+									                        <div class="col-sm-10">
+									                            <input type="password" class="form-control" id="contrasenaRegistrar" placeholder="">
+									                        </div>
+									                    </div>
+									                    <div class="form-group row">
+									                        <label for="recontrasena" class="col-sm-2 col-form-label">Confirmar
+									                            contraseña</label>
+									                        <div class="col-sm-10">
+									                            <input type="password" class="form-control" id="recontrasena" placeholder="">
+									                        </div>
+									                    </div>
+									                    <div class="form-group">
+									                        <label for="nombre">Nombre de
+									                            Usuario</label> <input type="text" class="form-control" id="nombre" placeholder="">
+									                    </div>
+									                    <div class="form-group">
+									                        <label for="apellidoPat">Apellido Paterno</label>
+									                        <input type="text" class="form-control" id="apellidoPat" placeholder="">
+									                    </div>
+									                    <div class="form-group">
+									                        <label for="apellidoMat">Apellido Materno</label>
+									                        <input type="text" class="form-control" id="apellidoMat" placeholder="">
+									                    </div>
+									                    <div class="form-group">
+									                        <label for="numControlRegistrar">Número de
+									                            control</label> <input type="text" class="form-control" id="numControlRegistrar"
+									                            placeholder="">
+									                    </div>
+									                    <p>Escoja algún tipo de usuario</p>
+									                    <select class="form-control" id="idUsuario">
+									
+									                        <option value="1"> Usuario</option>
+															<option value="2">Revisor contenido</option>
+															<option value="3">Revisor estilo</option>
+															<option value="4">Administrador</option>
+									                    </select>
+									            	</div>
+									                    <button type="Envíar" class="btn btn-primary" id="RegisterButton">Registrar</button>
 
-												
-													 <input type="email" class="form-control" id="correo"
-														placeholder="nombre@ejemplo.com" />
-												
-													<label for="contrasenaRegister" class="col-sm-2 col-form-label">Contraseña</label>
-														<input type="password" class="form-control"
-															id="contrasenaRegister" placeholder="">
-															
-													<label for="contrasenaRepetir" class="col-sm-2 col-form-label">Confirmar
-														contraseña</label>
-														<input type="password" class="form-control"
-															id="contrasenaRepetir" placeholder="">
-															
-													<label for="nombre">Nombre de
-														Usuario</label> <input type="text" class="form-control"
-														id="nombre" placeholder="">
-														
-													<label for="apellidoPat">Apellido Paterno</label>
-													<input type="text" class="form-control" id="apellidoPat"
-														placeholder="">
-														
-													<label for="apellidoMat">Apellido Materno</label>
-													<input type="text" class="form-control" id="apellidoMat"
-														placeholder="">
-														
-													<label for="numControlRegister">Número de
-														control</label> <input type="text" class="form-control"
-														id="numControlRegister" placeholder="">
-														
-													<p>Escoja algún tipo de usuario</p>
-													<select id="idUsuario">
-
-														<option value="1"> Usuario</option>
-														<option value="2">Revisor contenido</option>
-														<option value="3">Revisor estilo</option>
-														<option value="4">Administrador</option>
-													</select>
-												
-												
-												<button  class="btn btn-secondary" data-dismiss="modal" id="RegisterButton">Envíar</button>
-												
-
-											</form>
+                							</form>
+											
 									</div>
 								</div>
 							</div>

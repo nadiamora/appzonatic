@@ -30,7 +30,11 @@ public class TipoUsuario implements Serializable{
 
 	//Contructor Default
 	public TipoUsuario() {
-		super();
+		
+	}
+	
+	public TipoUsuario(Integer id) {
+		this.idUsuario = String.valueOf(id);
 		
 	}
 

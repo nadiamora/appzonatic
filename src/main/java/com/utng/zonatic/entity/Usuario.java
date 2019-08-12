@@ -34,7 +34,7 @@ public class Usuario implements Serializable{
 	private String contrasena;
 	
 	
-	//Relación de uno a muchos
+	//Relacion de uno a muchos
 	@ManyToOne
 	@JoinColumn (name="idUsuario")
 	private TipoUsuario idUsuario;
@@ -43,7 +43,7 @@ public class Usuario implements Serializable{
 	
 	//Constructor 
 	public Usuario(String numControl, String correo, String nombre, String apellidoPat, String apellidoMat,
-			String contrasena, TipoUsuario idUsuario) {
+			String contrasena, Integer idUsuario) {
 		super();
 		this.numControl = numControl;
 		this.correo = correo;
@@ -51,7 +51,7 @@ public class Usuario implements Serializable{
 		this.apellidoPat = apellidoPat;
 		this.apellidoMat = apellidoMat;
 		this.contrasena = contrasena;
-		this.idUsuario = idUsuario;
+		this.idUsuario = new TipoUsuario(idUsuario);
 	}
 
 	//Constructor Default
