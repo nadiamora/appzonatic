@@ -19,7 +19,8 @@
     
  }
  .historial{
-    color: blue;
+  margin-top: 0px;
+  color: blue;
   initial-letter: 2px;
     
  }
@@ -30,9 +31,7 @@
    margin-top: 10px;
     padding: 5px;
     border-radius: 10px;
-    margin-right: 100px;
-
-   
+    margin-right: 100px;   
 }
 
 
@@ -120,9 +119,9 @@
     margin-bottom: -2%;
 }
 .header4 {
+    margin-top: 0%;
     border-radius: 1px solid white;
     background-color: white;
-   
     padding: 10px;
 }
 .header8{

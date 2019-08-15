@@ -3,7 +3,7 @@
 <!--Header 2-->
 	<div class="row">
 		<div class="col-md header2">
-			<h1 class="entrada">Bienvenido a Zona TIC</h1>
+			<h1 class="entrada">Bienvenido a ZonaTIC</h1>
 			<p class="lead">
 				<b> <marquee behavior=alternate>Dale un vistazo a los
 						artículos más relevantes del momento</marquee>

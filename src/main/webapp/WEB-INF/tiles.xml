@@ -294,6 +294,8 @@
 			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
+			value="" />
+		<put-attribute name="buscador" 
 			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/index/conocimentosespecializados.jsp" />
@@ -310,6 +312,8 @@
 			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
+			value="" />
+		<put-attribute name="buscador" 
 			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/index/conocimientosgenerales.jsp" />
@@ -326,6 +330,8 @@
 			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
+			value="" />
+		<put-attribute name="buscador" 
 			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/index/tialavanguardia.jsp" />
@@ -342,6 +348,8 @@
 			<put-attribute name="menurevisor" 
 			value="" />
 		<put-attribute name="bienvenida"
+			value="" />
+		<put-attribute name="buscador" 
 			value="" /> 
 		<put-attribute name="body"
 			value="/WEB-INF/views/index/noticiasyeventos.jsp" />
@@ -384,7 +392,7 @@
 		<!-- Index -->
 	<definition name="index" extends="base-definition">
 		<put-attribute name="title"
-			value="Zona TIC" />
+			value="ZonaTIC" />
 		<put-attribute name="menuadministrador" 
 			value="" />
 		<put-attribute name="menuusuario" 
