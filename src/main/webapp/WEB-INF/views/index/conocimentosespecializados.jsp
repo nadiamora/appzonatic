@@ -69,7 +69,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo.jpg"
+						<img src="${pageContext.request.contextPath}/resources/img/ciencia.jpg"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
@@ -88,7 +88,7 @@
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
 						<img
-							src="${pageContext.request.contextPath}/resources/img/ejemplo9.jpg"
+							src="${pageContext.request.contextPath}/resources/img/cienciabien.png"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
@@ -107,7 +107,7 @@
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
 						<img
-							src="${pageContext.request.contextPath}/resources/img/ejemplo4.jpg"
+							src="${pageContext.request.contextPath}/resources/img/dedos.jpg"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
@@ -130,7 +130,7 @@
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
 						<img
-							src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg"
+							src="${pageContext.request.contextPath}/resources/img/mente.jpg"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
@@ -149,7 +149,7 @@
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
 						<img
-							src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg"
+							src="${pageContext.request.contextPath}/resources/img/tecnologico1.jpg"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">
@@ -168,7 +168,7 @@
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
 						<img
-							src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg"
+							src="${pageContext.request.contextPath}/resources/img/todo.jpg"
 							width="auto" height="170" class="card-img-top"
 							alt="No se pudo Encontrar el Artículo" />
 						<div class="card-body">

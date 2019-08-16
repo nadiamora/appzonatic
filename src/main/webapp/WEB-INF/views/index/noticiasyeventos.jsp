@@ -68,7 +68,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/tema.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -85,7 +85,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo9.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/ticeventos.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -102,7 +102,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo4.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/Eventos.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -123,7 +123,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo5.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/hoy.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -140,7 +140,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo6.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/datos.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
@@ -157,7 +157,7 @@
 			<div class="row margen">
 				<div class="col-md-11 subar">
 					<div class="card1" style="width: auto; height: auto;">
-						<img src="${pageContext.request.contextPath}/resources/img/ejemplo7.jpg" width="auto" height="170"
+						<img src="${pageContext.request.contextPath}/resources/img/nad.jpg" width="auto" height="170"
 							class="card-img-top" alt="No se pudo Encontrar el Artículo"/>
 						<div class="card-body">
 							<h5 class="card-title">Artículo</h5>
