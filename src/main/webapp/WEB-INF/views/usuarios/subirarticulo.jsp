@@ -5,119 +5,81 @@
 <body background="${pageContext.request.contextPath}/resources/img/fondo7.png"/>
 <section class="container">
 	<!--Contenido-->
-	<div class="row margenadministrararticulo">
+		<div class="row margenadministrararticulo">
 		<!--Articulos-->
-		<div class="col-md-5 articulo">
+		<div class="col-md-12 articulo">
 			<div class="row margenadministrararticulo">
 				<div class="col-md-12 subar1">
 					<!--Articulo en revision-->
-					<div class="card mb-3" style="max-width: 540px;">
-						<div class="row no-gutters">
-							<div class="col-md-12">
-								<div class="card-body">
-									<h5 class="card-title">Artículo</h5>
-									<p class="card-text">Agregar todo el contenido sobre tu
-										articulo en la parte inferior</p>
-									<p class="card-text">
-										<small class="text-muted"></small>
-									</p>
-									<form class="otros">
-										<div class="comen">
-											<textarea class="form-control"
-												id="exampleFormControlTextarea1" rows="4"></textarea>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<a class="btn btn-primary" href="#" role="button">Guardar </a>
-				</div>
-
-			</div>
-
-			<div class="row margenadministrararticulo">
-				<div class="col-md-12 subar1">
-					<!--Articulo en revision-->
-					<div class="card mb-3" style="max-width: 540px;">
-						<div class="row no-gutters">
-							<div class="col-md-12">
-								<div class="card-body">
-									<h5 class="card-title">Resumen</h5>
-								</div>
-								<form class="otros">
-									<p>Ingresar un comentario que describa tu articulo (250
-										palabras maximo).</p>
-									<div class="comen">
-										<textarea class="form-control"
-											id="exampleFormControlTextarea1" rows="4"></textarea>
-									</div>
-
-								</form>
-
-							</div>
-
-
-						</div>
-
-					</div>
-					<a class="btn btn-primary" href="#" role="button">Guardar </a>
-
-				</div>
-
-			</div>
-
-		</div>
-
-		<!--columna enviados esperando respuesta-->
-
-		<div class="col-md-5 articulo">
-
-			<div class="row margenadministrararticulo">
-				<div class="col-md-12 subar1">
-					<!--Articulo1-->
-					<div class="card" style="width: auto;">
-						<div class="card-body">
-							<h5 class="card-title" align="center">Palabras clave</h5>
-							<p class="card-text">Ingresar 5 palabras clave para
-								identificar su articulo de manera mas rapida</p>
-							<input type="text" size="" maxlength="30" value="1.-"
-								name="nombre"> <input type="text" size=""
-								maxlength="30" value="2.-" name="nombre"> <input
-								type="text" size="" maxlength="30" value="3.-" name="nombre">
-							<input type="text" size="" maxlength="30" value="4.-"
-								name="nombre"> <input type="text" size=""
-								maxlength="30" value="5.-" name="nombre">
-
-						</div>
-					</div>
-					<br> <a class="btn btn-primary" href="#" role="button">Guardar
-					</a>
-				</div>
-
-			</div>
-
-			<div class="row margenadministrararticulo">
-				<div class="col-md-12 subar1">
-					<h5 class="card-title">Imágenes</h5>
-					<p class="card-text">Agregar solamente una imagen que se
-						identifique con tu articulo.</p>
-					<img src="${pageContext.request.contextPath}/resources/img/ejemplo2.jpeg" class="card-imgi"
-						alt="imagen no encontrada"/>
-
-					<form>
+					<form id="formSubir">
 						<div class="form-group">
-							<label for="exampleFormControlFile1"></label> <input type="file"
-								class="form-control-file" id="exampleFormControlFile1">
-						</div>
+						<h5 class="card-title" align="center">Titulo</h5>
+						<label for="subir-titulo">Ingresa el titulo de tu articulo</label>
+							<input type="text" class="form-control" id="subir-titulo" placeholder="">
+						</div><br>
+						<div class="form-group">
+						<h5 class="card-title" align="center">Reseña</h5>
+						<label for="exampleFormControlTextarea1">Agrega una pequeña reseña sobre tu articulo con un limite de 250 palabras</label>
+							<textarea class="form-control" id="subir-resena" rows="4"></textarea>
+						</div><br>
+						<div class="form-group">
+                                <h5 class="card-title" align="center">Palabras clave</h5>
+                                <p class="card-text"> Ingresar 5 palabras clave para identificar su articulo de manera mas rapida</p>
+                                <input id="subir-palabrauno"  type="text" size="35" maxlength="30" value="" name="nombre"><br>
+                                <input id="subir-palabrados" type="text" size="35" maxlength="30" value="" name="nombre"><br>
+                                <input id="subir-palabratres" type="text" size="35" maxlength="30" value="" name="nombre"><br>
+                                <input id="subir-palabracuatro" type="text" size="35" maxlength="30" value="" name="nombre"><br>
+                                <input id="subir-palabracinco" type="text" size="35" maxlength="30" value="" name="nombre"><br>
+
+                            </div><br>
+
+						<div class="form-group">
+						<h5 class="card-title" align="center">Contenido</h5>
+							<label for="subir-contenido">Agrega el contenido de tu articulo</label>
+							<textarea class="form-control" id="subir-contenido" rows="8"></textarea>
+						</div><br>
+						<div class="form-group">
+						<h5 class="card-title" align="center">Imagen</h5>
+							<label for="exampleFormControlTextarea1">Elige una imagen</label>
+						
+							<label for="exampleFormControlFile1"></label>
+                                    <input type="file" class="form-control-file"
+                                        id="subir-imagen">
+						</div><br>
+
+						<h5 class="card-title" align="center">Categoria</h5>
+						<label for="subir-categoria">Escoja la categoría a la que desee que pertenezca</label>
+								<select class="form-control" id="subir-Categoria">
+
+									<?php
+										foreach($categorias as $row) {
+											echo '<option value="'.$row->idCategoria.'">'.$row->nombreCat.'</option>';
+										}
+									?>
+
+								</select><br><br>
+
+						<h5 class="card-title" align="center">Estado</h5>
+						<label for="subir-categoria">Eliga el estado en ele que se encuentre el articulo</label>
+								<select class="form-control" id="subir-estado">
+									
+								<?php
+										foreach($estados as $row) {
+											echo '<option value="'.$row->idEstado.'">'.$row->tipoEstado.'</option>';
+										}
+									?>
+									
+
+								</select><br><br>
+						<button type="button" class="btn btn-primary" id="subirButton">Enviartodo</button>
 					</form>
 
-				</div>
-
+					
+						<!-- Button trigger modal -->
+						<!--<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#exampleModalLong" id="subir--Button">Subir</button>-->
 
 			</div>
-
 		</div>
 
 

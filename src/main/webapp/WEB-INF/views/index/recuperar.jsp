@@ -22,40 +22,29 @@
 		<h2>Recuperar contraseña o usuario</h2>
 		</p>
 		<br>
-		<form>
-			<div class="form-row">
-				<div class="form-group col-md-6">
-					<label for="inputEmail4">Nombre de usuario</label> <input
-						type="email" class="form-control" id="inputEmail4"
-						placeholder="Usuario">
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputPassword4">Apellido Paterno</label> <input
-						type="password" class="form-control" id="inputPassword4"
-						placeholder="Apellido">
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputEmail4">Apellido Materno</label> <input
-						type="email" class="form-control" id="inputEmail4"
-						placeholder="Apellido">
-				</div>
-				<div class="form-group col-md-6">
-					<label for="inputPassword4">Email</label> <input type="password"
-						class="form-control" id="inputPassword4" placeholder="Email">
-				</div>
-			</div>
-
-
-			<div class="Recuperarlacontraseña col-md-12">
-
-				<div class="Recuperarlacontraseña">
-					<div class="form-check"></div>
-				</div>
-				<button type="submit" class="btn btn-primary">Recuperar</button>
-			</div>
-
-
-		</form>
+	<form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail4">Ingresa tu correo</label> <input
+                                    type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Correo">
+                            </div>
+                            
+                        </div>
+            
+            
+                        <div class="Recuperarlacontraseña col-md-12">
+            
+                            <div class="Recuperarlacontraseña">
+                                <div class="form-check"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="Buttonrecu">Recuperar</button>
+                        </div>
+            
+            
+                    </form>
+	
+	
 	</div>
 </section>
 </body>
